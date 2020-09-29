@@ -12,5 +12,9 @@ class MainActivity : AppCompatActivity() {
         tapHere.setOnClickListener {
             textView.text = "ボタンがタップされました。"
         }
+
+        imageView.setOnClickListener {
+            textView.text = "ちわ！あんどろいど"
+        }
     }
 }
